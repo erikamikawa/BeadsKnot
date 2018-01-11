@@ -45,8 +45,8 @@ class data_extract {
 
     bin.getBinarized(image);//２値化してd[][]に格納する
 
-    sq.getSquareExtraction();//正方形分割をするときにコメントアウトをはずす
-    //th.getThinningExtraction();//thinning ver.にするときにコメントアウトをはずす
+    //sq.getSquareExtraction();//正方形分割をするときにコメントアウトをはずす
+    th.getThinningExtraction();//thinning ver.にするときにコメントアウトをはずす
   }
 
   //TODO メソッドをabc順に並べるかどうか，検討する。
